@@ -1,4 +1,6 @@
 """
+This file must be run after top100listing.py since it uses the csv files created there
+
 This file has two functions: TopContributorList and TopContributorSort
 
 The first functions takes a csv file from top100listing.py (for example top100Python.csv) as input,
