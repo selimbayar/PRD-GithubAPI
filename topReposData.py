@@ -1,4 +1,6 @@
 """
+This file must be run after all three previous files were run since it uses csv files that were created before
+
 This file has 4 functions, all of them print information on certain things
 
 The first function, topReposData, takes the top100.csv (or top(number).csv) file from before,
