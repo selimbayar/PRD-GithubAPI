@@ -1,4 +1,6 @@
 """
+This file must be run after sort_top_contributors.py since it uses the csv file created there
+
 This file takes the sorted top contributors file from before,
 and creates a new csv file that includes information on all of those contributors
 
