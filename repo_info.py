@@ -2,6 +2,8 @@
 This file takes a link of any repository on github and displays information
 about the number of stars, forks, contributors, etc.
 
+This file can be used anytime regardless of the other files
+
 """
 
 import json
@@ -14,8 +16,9 @@ import os
 access_token = os.getenv('GITHUB_TOKEN', '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')
 headers = {'Authorization': "Token " + access_token}
 
-# Enter the link of desired repo to get its info
-query_url = "https://api.github.com/repos/CompVis/stable-diffusion"
+# Enter the API link of desired repo to get its info
+url = "https://api.github.com/repos/CompVis/stable-diffusion"
+
 
 # API call for the specified URL
 
