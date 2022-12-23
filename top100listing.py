@@ -1,4 +1,6 @@
 """
+This file must be run first since other python files use the csv files created here
+
 This file has two functions, topStarred and topStarredByLanguage
 Before the functions, a csv file called data.csv is created, which includes all information of top 100 starred and forked repos,
 and lists the top 100 repos for every language
@@ -9,7 +11,6 @@ which includes info on the top 100 (or the given number) starred repos
 The second function also takes data.csv and a number, but also a language as input, and creates a new csv file called top(number)(language).csv,
 which includes info on the top 100 (or the given number) starred repos of the given language
 
-This file must be run first since other python files use the csv files created here
 
 """
 
